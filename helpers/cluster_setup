@@ -1,0 +1,9 @@
+
+
+redis-cli --cluster create 10.61.203.37:6379 10.61.203.39:6379 \
+--cluster-replicas 1 \
+-a Infra0n
+
+
+
+redis-cli --cluster create 10.61.203.37:6379 10.61.203.39:6379 -a Infra0n
