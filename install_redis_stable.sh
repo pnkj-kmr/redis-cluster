@@ -5,7 +5,7 @@
 yum remove -y redis
 
 cd /opt
-yum install -y tcl python3 systemd-devel gcc
+yum install -y tcl python3 systemd-devel gcc wget tar make
 wget https://download.redis.io/redis-stable.tar.gz
 rm -rf /opt/redis-stable/
 tar -xzvf redis-stable.tar.gz
